@@ -55,6 +55,7 @@ python3 deopt/__main__.py --engine=z3
 # File structure
 
 ```
+
 .
 ├── Dockerfile
 ├── README.md
@@ -79,3 +80,9 @@ python3 deopt/__main__.py --engine=z3
     ├── Q2                    # Contains reference and optimized programs for bugs found by queryFuzz
     └── Q3                    # Contains the configuration file and results for Q3 in evaluation
 ```
+
+
+
+# Reproduce the sensitivity analysis
+You can copy the `params.json` file from each experiment located in the `./evaluation/Q3/results` folder to the current directory. Then execute the command that corresponds to the Datalog engine you target at.
+
